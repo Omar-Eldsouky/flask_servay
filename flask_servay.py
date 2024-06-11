@@ -12,11 +12,11 @@ forms = db['forms']
 
 
 
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = "omareldsouky14@gmail.com"
-app.config['MAIL_PASSWORD'] = "vsqe bqdj lziv coto"
+app.config['MAIL_SERVER'] = ""
+app.config['MAIL_PORT'] = ""
+app.config['MAIL_USE_SSL'] ="" 
+app.config['MAIL_USERNAME'] = ""
+app.config['MAIL_PASSWORD'] = ""
 mail = Mail(app)
 
 class form(UserMixin):
